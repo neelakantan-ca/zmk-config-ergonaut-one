@@ -14,16 +14,16 @@ layers:
   - P
   - ''
   - ''
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: Ctrl}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT GUI}
+  - {t: F, h: LEFT SHIFT}
   - G
   - H
-  - J
-  - K
-  - L
-  - ''''
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: RIGHT GUI}
+  - {t: L, h: RIGHT ALT}
+  - {t: '''', h: Ctrl}
   - ''
   - ''
   - Z
@@ -38,10 +38,10 @@ layers:
   - /
   - ''
   - {t: ESCAPE, h: symbols}
-  - {t: ␣, h: numbers}
+  - {t: BACKSPACE, h: numbers}
   - {t: ↹, h: navigation}
   - {t: ENTER, h: functions}
-  - {t: ⌫, h: media}
+  - {t: ␣, h: media}
   - {t: ⌦, h: base}
   navigation:
   - ''
