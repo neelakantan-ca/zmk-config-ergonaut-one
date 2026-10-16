@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - ''
-  - ''
+  - {t: ESCAPE, h: Gui+Alt+Sft+Ctrl}
   - {t: A, h: Ctrl}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT GUI}
@@ -37,29 +37,29 @@ layers:
   - .
   - /
   - ''
-  - {t: ESCAPE, h: symbols}
-  - {t: BACKSPACE, h: numbers}
+  - {t: ESCAPE, h: functions}
+  - {t: BACKSPACE, h: numbers, s: DELETE}
   - {t: ↹, h: navigation}
-  - {t: ENTER, h: functions}
-  - {t: ␣, h: media}
-  - {t: ⌦, h: base}
+  - {t: ENTER, h: symbols}
+  - ␣
+  - {t: ⌦, h: media}
   navigation:
   - ''
   - ''
+  - Gui+←
+  - Alt+LEFT ARROW
+  - Alt+→
+  - Gui+→
+  - Gui+Sft+Z
+  - Gui+V
+  - Gui+C
+  - Gui+X
+  - Gui+Z
   - ''
   - ''
-  - ''
-  - ''
-  - REDO
-  - PASTE
-  - COPY
-  - CUT
-  - UNDO
-  - ''
-  - ''
-  - LEFT GUI
-  - LEFT ALT
   - Ctrl
+  - LEFT ALT
+  - LEFT GUI
   - LEFT SHIFT
   - ''
   - ←
@@ -71,8 +71,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - Sft+Gui+[
+  - Sft+Gui+]
   - ''
   - Home
   - PAGE DOWN
@@ -100,9 +100,9 @@ layers:
   - ']'
   - ''
   - ''
-  - LEFT GUI
-  - LEFT ALT
   - Ctrl
+  - LEFT ALT
+  - Gui
   - LEFT SHIFT
   - ''
   - '='
@@ -128,48 +128,48 @@ layers:
   - ''
   - ENTER
   - '0'
-  - ''
+  - .
   symbols:
+  - ''
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - ''
+  - ''
   - '`'
-  - Sft+~
-  - Sft+!
-  - Sft+@
-  - Sft+#
-  - Sft+$
-  - Sft+}
+  - '-'
+  - '='
+  - ''
+  - ''
+  - ''
+  - '['
   - ']'
   - \
-  - Sft+|
+  - ;
   - ''
   - ''
-  - Sft+%
-  - Sft+^
-  - Sft+&
-  - Sft+*
-  - Sft+(
-  - Sft+)
-  - ''''
-  - Sft+"
+  - '~'
+  - _
+  - +
   - ''
   - ''
+  - ''
+  - '{'
+  - '}'
+  - '|'
   - ':'
   - ''
-  - '-'
-  - Sft+_
-  - '='
-  - Sft++
-  - '['
-  - Sft+{
-  - ''
-  - ''
-  - <
-  - '>'
-  - '?'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   functions:
@@ -209,15 +209,30 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
   - {type: held}
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   media:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - MUTE
+  - Vol Down
+  - Vol Up
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ⏮️
+  - ⏯
+  - ⏭️
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -228,22 +243,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BRI DN
+  - BRI UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -257,16 +258,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
   settings:
   - ''
   - ''
-  - ''
+  - {t: PC, h: toggle}
   - ''
   - '&studio_unlock'
   - ''
   - ''
-  - ''
+  - OUT TOG
   - ''
   - ''
   - ''
@@ -299,5 +299,91 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - ''
-  - {t: BT 1, type: held}
+  - BT 1
+  - {type: held}
+  PC:
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  PC_NAV:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Home
+  - Ctl+←
+  - Ctl+→
+  - End
+  - Ctl+Y
+  - Ctl+V
+  - Ctl+C
+  - Ctl+X
+  - Ctl+Z
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctrl
+  - LEFT ALT
+  - Gui
+  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - ←
+  - ↓
+  - UP ARROW
+  - →
+  - CAPSLOCK
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Tab Left
+  - Tab Right
+  - {t: ▽, type: trans}
+  - Home
+  - PAGE DOWN
+  - PAGE UP
+  - End
+  - INSERT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ENTER
+  - BACKSPACE
+  - DELETE
